@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle Quiz</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+        <h1>Triangle Quiz</h1>
+
+        <a href="index.html" class="primaryLink2"> &lt;</a>
+
+        <form id="quizForm">
+          <center>
+          <div class="question">
+            1.Which of the following triangles are always similar?<br />
+            <br />
+            <br/>
+            <input
+              required
+              type="radio"
+              value="option1"
+              name="que1"
+            />
+            <label>Equilateral triangle</label>
+            <input
+              required
+              type="radio"
+              value="option2"
+              name="que1"
+            />
+            <label for="optionBone">Isosceles triangle</label>
+          </div>
+
+          <div class="question">
+            2. If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining angles? <br />
+            <br />
+            <br/>
+            <input
+              required
+              type="radio"
+              value="option1"
+              name="que2"
+            />
+            <label>85°</label>
+            <input
+              required
+              type="radio"
+              value="option2"
+              name="que2"
+            />
+            <label>100°</label>
+          </div>
+
+          <div class="question">
+            3.There is a right triangle PQR where: angle Q = 90°; angle P = angle
+            R. What is the measure of angles P and R? <br />
+            <br />
+            <br/>
+            <input
+              required
+              type="radio"
+              value="option1"
+              name="que3"
+            />
+            <label> 45°</label>
+            <input
+              required
+              type="radio"
+              value="option2"
+              name="que3"
+            />
+            <label>65°</label>
+          </div>
+
+          <div class="question">
+            4. A scalene triangle has ___ lines of symmetry<br />
+            <br />
+            <br/>
+            <input
+              required
+              type="radio"
+              value="option1"
+              name="que4"
+            />
+            <label>no</label>
+            <input
+              required
+              type="radio"
+              value="option2"
+              name="que4"
+            />
+            <label>two</label>
+          </div>
+
+          <div class="question">
+            5. The perimeter of scalene triangle with sides a, b, c is<br />
+            <br />
+            <br/>
+            <input
+              required
+              type="radio"
+              value="option1"
+              name="que5"
+            />
+            <label>a+b+c</label>
+            <input
+              required
+              type="radio"
+              value="option2"
+              name="que5"
+            />
+            <label>2a</label>
+          </div>
+
+
+          <button type="submit" id="submitquiz" class="primaryLink2">
+            Check
+          </button>
+          <div style="font-weight: bolder;">
+            Your Score: <output id="finalscore"></output>
+          </div>
+        </form>
+      </div>
+    </center>
+
+      <footer>
+      </footer>
+
+    <script src="checkquiz.js"></script>
+  </body>
+</html>

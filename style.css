@@ -1,0 +1,90 @@
+:root {
+  --hover-color: lightgrey;
+}
+body {
+  margin: auto;
+  width: max-content;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.main-body {
+  flex-grow: 50;
+  display: flex;
+  align-self: center;
+  position: center;
+  width: auto;
+}
+
+.home-links {
+  margin: 1rem;
+  height: auto;
+  padding: 1rem 1rem;
+  border: 3px solid black;
+  border-radius: 0.5rem;
+  width: auto;
+  text-align: center;
+}
+
+.home-links:hover {
+  background-color: var(--hover-color);
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: black;
+}
+
+.primaryLink2 {
+  display: block;
+  width: fit-content;
+  background-color: transparent;
+  margin: auto;
+  border: 3px solid black;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.primaryLink2:hover {
+  background-color: var(--hover-color);
+}
+
+#inputFields {
+  padding: 1rem;
+  margin: 2rem 2rem;
+  width: 50%;
+  border: 3px solid black;
+  border-radius: 1rem;
+  font-weight: bolder;
+}
+
+#areaField {
+  padding: 1rem;
+  margin: 1rem;
+  width: 50%;
+  text-align: center;
+  font-weight: bolder;
+  border: 3px solid black;
+  border-radius: 0.5rem;
+}
+
+.radio {
+  text-align: left;
+  font-weight: bolder;
+  padding: 0.5rem;
+}
+
+.question {
+  text-align: center;
+  font-weight: bolder;
+  background-color: lightcyan;
+  display: block;
+  width: relative;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-bottom: 0.1rem;
+}
